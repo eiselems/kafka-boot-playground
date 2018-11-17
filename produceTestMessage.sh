@@ -1,0 +1,1 @@
+echo '{"id":1, "author": "Mo", "text":"Just some stuff"}' | kafka-console-producer --broker-list localhost:9092 --topic test 
